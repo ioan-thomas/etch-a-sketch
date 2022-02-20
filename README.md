@@ -1,0 +1,1 @@
+This is a project from The Odin Project Curriculum. The goal is not to create a etch-a-sketch clone, but to create a cross between etch-a-sketch and paint. When a div is entered by the users mouse, the div colour will change.
