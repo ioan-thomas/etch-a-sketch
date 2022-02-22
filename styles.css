@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: red 1px solid; */
+}
+
+:root{
+
+    --grid-size: 50;
+}
+
+
+/* Utilities */
+.btn {
+    background: hsl(0, 100%, 92%);
+    border: none;
+    padding: 0.5rem;
+}
+
+.box {
+    min-height: 5px;
+    min-width: 5px;
+    border: solid red 1px;
+}
+
+#main-flex-container {
+    /* width: 70vw; */
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+#control-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#control-container > * {
+    margin: 0.25rem;
+}
+
+/* Grid Container */
+
+#grid-container {
+    
+    min-width: 70vw;
+    border: solid 1px red;
+    display: grid;
+    grid-template-columns: repeat(var(--grid-size), 1fr);
+    grid-template-columns: repeat(var(--grid-size), 1fr) ;
+}
+
